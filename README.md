@@ -29,7 +29,7 @@ Some of the current features of Fibril:
 - Platform control for administrators
 
 
-### Techonologies
+### Technologies
 
 - Solidity - The smart contracts is written in solidity
 - React.js - The frontend is built with React.js
