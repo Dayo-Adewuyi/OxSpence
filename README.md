@@ -19,7 +19,7 @@ Users can access the platform from any region/country in the world without any f
 
 
 
-Some of the current features of Fibril:
+Some of the current features of OxSpence:
 
 - Upload Files
 - Share with wallet address/ENS/Unstoppable domains
