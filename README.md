@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+## OXSPENCE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Decentralized file management and sharing dapp**
 
-## Available Scripts
+Basically, a "Decentralized Google Drive"
 
-In the project directory, you can run:
+### Problem
 
-### `yarn start`
+The current and most popular file sharing and file management platforms are centralized and not censorship resistand. There have been many reports of these platforms suspending and deplatforming users, which has caused users to lose access to important files.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Also, Some of these platforms are not available in some regions and countries which leaves the potential users in those regions/countries at a disadvantage.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Solution
+The solution built is a decentralized file management/sharing system.
 
-### `yarn test`
+Oxspence allows user store documents in a secured manner, share files with friend or the public and collaborate on documents.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Users can access the platform from any region/country in the world without any fear of deplatforming or sale of information to third parties because the core and main features of the platform are smart contracts written and deployed to the blockchain network.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Some of the current features of Fibril:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Upload Files
+- Share with wallet address/ENS/Unstoppable domains
+- Option to Make File available for public viewing
+- Public files can be shared on different social media platforms and downloaded
+- Option to make a public document private
+- Platform control for administrators
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Techonologies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Solidity - The smart contracts is written in solidity
+- React.js - The frontend is built with React.js
+- Alchemy - Alchemy broadcasts the dapp
+- IPFS - IPFS is used to store files
+- Polygon - The smart contracts are deployed to Polygon Mumbai
+- Login with Unstoppable
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Deployments
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The smart contract is deployed to Polygon Mumbai Network
+Live link: https://ox-spence.vercel.app/
+DEMO: https://youtu.be/15ZNA9SSA1Y
