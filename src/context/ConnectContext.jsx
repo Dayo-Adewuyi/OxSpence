@@ -307,7 +307,7 @@ export const ConnectProvider = ({ children }) =>{
  
   const uauthOptions = {
     clientID: '68ee4d6b-dabe-48e1-a6ed-9f7b907eca13',
-    redirectUri: 'http://localhost:3000/callback',
+    redirectUri: 'https://ox-spence.vercel.app/redirectUri1',
   
     // Must include both the openid and wallet scopes.
     scope: 'openid wallet',
@@ -366,12 +366,16 @@ export const ConnectProvider = ({ children }) =>{
 
 
  async function connectWallet() {
-   const provider = await web3Modal.connect();
+   try{
+    const provider = await web3Modal.connect();
    addListeners(provider);
    const ethersProvider = new providers.Web3Provider(provider)
    const userAddress = await ethersProvider.getSigner().getAddress()
    setCurrentAccount(userAddress)
    setConnectedWallet(true)
+  }catch(error){
+    console.log(error)
+  }
  }
 
  
