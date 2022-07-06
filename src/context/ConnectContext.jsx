@@ -307,7 +307,8 @@ export const ConnectProvider = ({ children }) =>{
  
   const uauthOptions = {
     clientID: '68ee4d6b-dabe-48e1-a6ed-9f7b907eca13',
-    redirectUri: 'https://ox-spence.vercel.app/',
+    redirectUri: 'http://localhost',
+    shouldLoginWithRedirect: true,
   
     // Must include both the openid and wallet scopes.
     scope: 'openid wallet',
